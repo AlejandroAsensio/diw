@@ -1,0 +1,38 @@
+h1.primerh{
+	color: green;
+}
+h1.primerh{
+	background-color: blue;
+}
+p.primerp{
+	color: blue;
+}
+p.primerp{
+	background-color: green;
+}
+.textoverdefondoazul{
+	color: green;
+	background-color: blue;
+}
+
+.textoazulfondoverde{
+	color: blue;
+	background-color: green;
+}
+.tercerh{
+color: blue;
+	background-color: green;
+}
+#titulo{
+	color: green;
+	background-color: blue;
+}
+
+#parrafo{
+	color: blue;
+	background-color: green;
+}
+.tercerp{
+	color: green;
+	background-color: blue;
+}
