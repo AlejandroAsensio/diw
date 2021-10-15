@@ -58,11 +58,11 @@ img { border: none; }
   padding: 0.5em;
 }
 #pie{
-  padding-top: 0.5em;
+  padding-top: 0;
   padding-bottom: 0.5em;
 }
 .articulo{
-  margin-bottom: 1em;
+margin: 1em;
 }
 .articulo img{
   margin: 0.5em;
@@ -137,4 +137,16 @@ body{
 .articulo p{
 margin-top: 0.3em;
 margin-bottom: 0.3em;
+}
+#secundario h2{
+  color: white;
+  font-size: 1em;
+}
+#pie a {
+  font-size: 0.7em;
+
+}
+#pie span.copyright{
+   color: grey;
+   
 }
