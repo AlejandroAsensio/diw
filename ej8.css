@@ -18,16 +18,10 @@
 	background-position: 0 0;
 }
 #prev:hover{
-	float: left;
-	width: 200px;
-	height: 188px;
-	background-image: url("112116-arrows-kit.png");
+	
 	background-position: -400px -376px;
 }
 #next:hover{
-	float: right;
-	width: 200px;
-	height: 188px;
-	background-image: url("112116-arrows-kit.png");
+	
 	background-position: -400px 0;
 }
