@@ -23,3 +23,13 @@ ul li{
 ul li:last-child{
 	border-bottom: 1px solid black;
 }
+ul li:hover{
+	border-bottom: 1px solid black;
+	transform: scale(1.5) rotate(30deg) rotate(-60deg);
+	transition-property: scale rotate ;
+	transition-delay: 0s 4s;
+
+
+	transition: transform 1s;
+
+}
