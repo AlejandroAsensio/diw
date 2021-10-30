@@ -8,6 +8,7 @@ ul.menu{
 	list-style: none;
 }
 ul li{
+
 	height: 80px;
 	width: 250px;
 	text-align: center;
@@ -19,17 +20,16 @@ ul li{
 	line-height: 80px;
 	background-color: #DB5D27;
 	color: #3BF5DC;
+	border-radius: 20px;
+
 }
 ul li:last-child{
 	border-bottom: 1px solid black;
 }
 ul li:hover{
 	border-bottom: 1px solid black;
-	transform: scale(1.5) rotate(30deg) rotate(-60deg);
-	transition-property: scale rotate ;
-	transition-delay: 0s 4s;
-
-
-	transition: transform 1s;
+	transform: scale(1.5);
+	box-shadow: 5px 5px #3D3C3B;
+	transition: 1s;
 
 }
