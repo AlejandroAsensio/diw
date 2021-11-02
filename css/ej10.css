@@ -21,6 +21,7 @@ ul li{
 	background-color: #DB5D27;
 	color: #3BF5DC;
 	border-radius: 20px;
+	transition: 1s;
 
 }
 ul li:last-child{
@@ -30,6 +31,6 @@ ul li:hover{
 	border-bottom: 1px solid black;
 	transform: scale(1.5);
 	box-shadow: 5px 5px #3D3C3B;
-	transition: 1s;
-
+	transition-property: transofrm box-shadow;
+	transition-duration: 1s 1s;
 }
