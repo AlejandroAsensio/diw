@@ -1,0 +1,22 @@
+.pelota{
+	
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+	border-radius: 50%;
+	background-color: red;
+	animation-name: mover;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	
+}
+@keyframes mover{
+	from{
+		top: 0px;
+		left: 0px;
+	}
+	to{
+		top: 0px;
+		left: 500px;
+	}
+}

@@ -28,6 +28,7 @@ tr,td,th{
 	padding: 8px;
 	border: 1px solid black;
 }
+
 table caption{
 	color: blue;
 }

@@ -1,9 +1,9 @@
 /* === IMPORTANTE ===================================================
    No modificar estos estilos, ya que son imprescindibles para
-   que la p·gina se vea correctamente.
+   que la p√°gina se vea correctamente.
    ================================================================== */
 
-/*-- B·sico ----------------------------------------------------------*/
+/*-- B√°sico ----------------------------------------------------------*/
 ul, ul li { margin: 0; padding: 0; list-style: none; }
 h1, h2, h3, p, form { margin: 0; padding: 0; }
 .clear { clear: both; }
@@ -36,15 +36,15 @@ img { border: none; }
 /*-- Menu ------------------------------------------------------------*/
 #menu ul#menu_principal li { display: inline; float: left; }
 
-/*-- SecciÛn Principal -----------------------------------------------*/
+/*-- Secci√≥n Principal -----------------------------------------------*/
 #contenido #principal .articulo img { width: 100px; float: left; }
 
-/*-- Pie de p·gina ---------------------------------------------------*/
+/*-- Pie de p√°gina ---------------------------------------------------*/
 #pie .enlaces   { float: left; }
 #pie .copyright { float: right; }
 
 /* === IMPORTANTE ===================================================
-   A partir de aquÌ, se pueden aÒadir todos los estilos propios que 
+   A partir de aqu√≠, se pueden a√±adir todos los estilos propios que 
    sean necesarios.
    ================================================================== */
 #cabecera{
@@ -72,4 +72,4 @@ img { border: none; }
 }
 #pie{
   margin-top: 0.5em;
-}
+} 

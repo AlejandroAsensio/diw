@@ -53,8 +53,8 @@ img { border: none; }
   margin-bottom: 0.5em;
   border-bottom: 1px solid #004C99;
   background-image: url("6fondo_menu.gif");
-}
-#noticias, #publicidad, #principal, #secundario{
+
+}#noticias, #publicidad, #principal, #secundario{
   padding: 0.5em;
 }
 #pie{

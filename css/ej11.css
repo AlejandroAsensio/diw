@@ -1,6 +1,6 @@
 div.contenedor{
 	width: 200px;
-	heigth: 260px;
+	height: 200px;
 	perspective: 600px;
 }
 div.card{
@@ -21,17 +21,18 @@ div.cara{
 
 div.back{
 	transform: rotateY(180deg);
+	background-color: #4A92F7;
+	border: 1px solid black;
+	color: #AB7611
 
-	background-color: red;		
 }
+
 div.card:hover{
 transform: rotateY(180deg);
+
 }
 div.back a{
 	text-decoration:none ;
+	color: #F7BC4A;
 }
-ol{
-	background-color: #B0CBE8;
-	border: 1px solid black;
 
-}
