@@ -1,0 +1,33 @@
+div.caja{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	text-align: center;
+	line-height: 200px;
+
+	background-color: red;
+	animation-name:girarIz,girarDe;
+	animation-delay: 0s, 2s;
+	animation-direction: alternate,alternate;
+	animation-iteration-count: 2,2;	
+	animation-duration: 1s,1s;
+	
+}
+@keyframes girarIz{
+	from{
+		transform: rotateZ(0deg);
+	}
+	to{
+		transform: rotateZ(45deg);
+	}
+}
+@keyframes girarDe{
+	from{
+		transform: rotateZ(0deg);
+	}
+	to{
+		transform: rotateZ(-45deg);
+	}
+}
