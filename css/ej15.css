@@ -1,10 +1,30 @@
-label{
-  display: block;
+div label.titulo{
+  float: left;
+  width: 100px;
 }
 
+div span label{
+  
+  font-size: .7em;
+  
+}
+
+div span input{
+display: block;
+margin-left: 100px;
+}
+input#codigopostal{
+width: 50px;
+}
+
+
+
+input#municipio{
+width: 50px;
+}
+
+
 ul li{
-  
-  
   list-style: none;
 
 }
@@ -13,9 +33,8 @@ ul li{
   font-weight: bold;
   font-size: 1.5em;
 }
-div span{
-  font-size: .7em;
-}
+
+
 ul li:hover {
   background-color: #FF9;
 }
@@ -23,9 +42,11 @@ ul li:hover {
 
 
 ul li input:focus {
+
   border: 1px solid #E6B700;
 }
 
 label.titulo{
   font-weight: bold;
+
 }
