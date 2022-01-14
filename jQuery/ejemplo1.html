@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 1 jQuery - Selectores</title>
+    <link rel="stylesheet" href="">
+    <script src="./lib/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            //codigo jquery
+            $("h1").css("background", "blue");
+            $("p").css("color", "green");
+            $("p.destacado").css("color", "yellow");
+            $("li#seleccionado").css("color", "red");
+            $("p:first").css("border", "1px solid black");
+            $("ul li:eq(2)").css("background", "green");
+                //    gt mayor que >
+                //    lt menor que <
+                //    eq igual a = 
+        })
+    </script>
+</head>
+<body>
+    <h1>Esto es un emeplo jQuery</h1>
+    <p>Esto es un párrafo</p>
+    <p class="destacado">Esto es un párrafo</p>
+    <p class="destacado">Esto es un párrafo</p>
+    <ul>
+        <li id="seleccionado">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li id="seleccionado">Elemento 4</li>
+        <li>Elemento 5</li>
+    </ul>
+    
+</body>
+</html>
