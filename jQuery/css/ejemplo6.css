@@ -1,0 +1,10 @@
+ul{
+    border: 1px solid black;
+}
+ul.aficiones{
+    background-color: blue;
+    color:white;
+}
+ul.propias{
+    background-color: red;
+}
