@@ -11,7 +11,7 @@ $(document).ready(function(){
 // 4
     console.log($("*:hidden").length);
 // 5
-    console.log($("img").attr("alt").length)
+    console.log($("img[alt]").length);
 // 6
     $("table tr:odd").css("background","green");
 
