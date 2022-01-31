@@ -3,9 +3,20 @@ $(document).ready(function(){
         "click" : function(){
             $("body").css("background-color",$(this).css("background-color"));
         },
-        "mousehover" : function(evento){
-            $(".oculto").position();
+        "mouseover" : function(evento){
+            $(".oculto").css({
+                "top" : (evento.pageY +5),
+                "left" : (evento.pageX + 20),
+                "visibility" : "visible"
+                // "background-color" : $(this).css("background-color")
+                
+            });
+            $(".oculto").text($(this).text());
+            
+        },
+        "mouseout" : function(){
+            $(".oculto").css("visibility" , "hidden");
         }
-    }
+    })
 
 })

@@ -4,9 +4,8 @@
     border-radius: 5px;
     line-height: 50px;
     text-align: center;
-    float:left;
+    display: inline-block;
 }
 .posicion{
-    position: absolute;
-    margin-left: 220px;
+    margin-left: 20px;
 }
