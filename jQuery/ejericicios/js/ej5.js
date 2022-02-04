@@ -13,10 +13,8 @@ $(document).ready(function(){
     texto = $(this).val();
         // console.log(String.fromCharCode(obj.which));
         // console.log(obj.which);
-        longitud = $(this).val().length;
+        longitud = $(this).val().length+1;
         // console.log(codigo);
-        
-        
         
             if(codigo == 97 || codigo == 101 || codigo == 105 ||codigo == 111 ||codigo == 117 ||
             codigo == 65 ||codigo == 69 ||codigo == 73 ||codigo == 79 ||codigo == 85 ){
@@ -32,15 +30,7 @@ $(document).ready(function(){
 
         $("span.cantidades").text("Numero de caracteres: "+longitud+"\nNumero de vocales: "+vocales+
             "\nNumero de consonantes: "+consonantes+"\nNumero de espacios en blanco: "+espacios);
-    });
-    $("textarea.texto").on("keydown",function(obj){
-        var longUp = $(this).val().length+1;
-        if(obj.which == 8){
-            borrado = true;
-        }
-        else{
-            borrado = false;
-        }
+    
         // console.log("N = "+longUp+"Tecla = "+obj.which);
         // console.log("Has borrado");
         

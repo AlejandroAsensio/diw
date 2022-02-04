@@ -1,0 +1,17 @@
+.aficiones{
+    list-style: none;
+    display: block;
+    text-align: left;
+    border: 1px solid black;
+    width:100px;
+    height: 200px;
+    
+}
+.aficiones li{
+    display:none;
+    position: relative;
+    
+}
+.aficiones:hover li{
+    display: block;
+}
