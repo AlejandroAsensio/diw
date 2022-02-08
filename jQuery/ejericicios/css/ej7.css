@@ -1,17 +1,24 @@
-.aficiones{
-    list-style: none;
-    display: block;
-    text-align: left;
-    border: 1px solid black;
+p{
+    display: none;
+    
+    margin-left: 12px;
+
+    background-color: aquamarine;
+    width:70px;
+    visibility: hidden;
+}
+span.aficiones{
+    margin-left: 8px;
+    
+    
+    border-radius: 5px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: underline;
+}
+div.afCont{
     width:100px;
-    height: 200px;
-    
-}
-.aficiones li{
-    display:none;
-    position: relative;
-    
-}
-.aficiones:hover li{
-    display: block;
+    background-color: lavender;
+    padding-bottom: 3px;
 }
