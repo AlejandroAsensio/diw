@@ -9,6 +9,7 @@ $(document).ready(function(){
         $("p").slideUp(100);
         $("p").css("visibility","hidden");
     });
+    
     // $("div.afCont").blur(function(){
     //     $("p").slideUp(500);
     // })
