@@ -1,13 +1,22 @@
 (function($){
-    // plugin con metodos para parrafos
-    $.fn.numerar = function(){
+    
+    $.fn.numerar = function(inicio){
         
-            var cont = 1;
         this.each(function(){
-            $(this).prepend(cont+ ".- ");
-            cont++;
+            $(this).prepend(inicio+ ".- ");
+            inicio++;
         })
+    }   
+    $.fn.colorear = function(color){
+        this.css("color", color);
     }
 
+    $.fn.contar = function(){
+        return this.length;
+    }
+    $.fn.dicolor = function() {
+        return this.css("color");
+    }
+    
 
 })(jQuery);
